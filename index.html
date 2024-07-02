@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@100..900&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="style.css" />
+    <title>My Goals</title>
+  </head>
+  <body>
+    <main>
+      <header id="header">
+        <span id="currentTimeUTC" data-testid="currentTimeUTC"></span>
+        <span id="currentDay" data-testid="currentDay">Day Of The Week</span>
+      </header>
+      <section id="landing-section">
+        <div>
+          <h1 id="landing-intro">
+            Hi, there I'm
+            <span data-testid="slackDisplayName">VadenIsIsaac</span>
+          </h1>
+          <span data-testid="slackEmail">isaacshosanya89@gmail.com</span>
+          <h2 id="landing-info">My Goals are:</h2>
+          <ul>
+            <li>Make it to the final stage of the HNG internship</li>
+            <li>Learn Rust</li>
+            <li>Go on a trip to somewhere new</li>
+            <li>Get a new laptop</li>
+            <li>Graduate from university</li>
+          </ul>
+
+          <h2 style="margin-top: 10px">Some Links:</h2>
+          <div style="display: flex; flex-direction: column">
+            <a
+              href="http://hng.tech/learn"
+              target="_blank"
+              data-testid="hngLink"
+              >HNGLink</a
+            >
+            <a
+              href="http://keyword.dog/"
+              target="_blank"
+              data-testid="keywordLink"
+              >KeywordLink</a
+            >
+            <a
+              href="http://scrapeanyweb.site/"
+              target="_blank"
+              data-testid="scrapeanywebLink"
+              >ScrapeanywebLink</a
+            >
+          </div>
+        </div>
+        <div>
+          <img
+            src="images/photo_2024-07-02_12-10-53.jpg"
+            alt="slackProfilePic"
+            id="slackProfilePicture"
+            data-testid="slackProfilePicture"
+          />
+        </div>
+      </section>
+    </main>
+    <script src="script.js"></script>
+  </body>
+</html>

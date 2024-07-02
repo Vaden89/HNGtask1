@@ -1,0 +1,58 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: "Inter";
+}
+
+body {
+  padding: 0 2rem;
+}
+
+main {
+  display: flex;
+  flex-direction: column;
+  align-items: start;
+  width: 100%;
+}
+
+#header {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-top: 1rem;
+  font-size: 1.5rem;
+}
+
+#landing-section {
+  margin-top: 4rem;
+  display: flex;
+  align-items: start;
+  justify-content: space-between;
+  width: 100%;
+}
+
+#landing-intro {
+  font-size: 3rem;
+}
+
+#landing-info {
+  margin-top: 3rem;
+}
+
+#slackProfilePicture {
+  width: 20rem;
+}
+
+@media only screen and (max-width: 768px) {
+  #landing-section {
+    flex-direction: column-reverse;
+    margin-top: 2rem;
+    align-items: center;
+    justify-content: center;
+  }
+  #landing-info {
+    margin-top: 1rem;
+  }
+}
